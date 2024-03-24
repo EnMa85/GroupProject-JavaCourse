@@ -1,12 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
+<jsp:include page="/base.jsp"/>
+
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+	<title>Conferma operazione</title>
 </head>
+
 <body>
-	<p>Cliente salvato</p>
+	<h2 class="heading">Cliente salvato</h2>
+	
+ 	<div class="btnback">
+ 		<a class="menu" id="btnback" href="index.jsp"><--- Torna al menù principale</a>
+ 	</div>
 </body>
-</html>
